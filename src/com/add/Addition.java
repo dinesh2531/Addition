@@ -12,10 +12,13 @@ public void add(int a, int b) {
 		
 		
 	}
-	
+
+  	
 	
 	
 	public static void main(String[] args) {
+		
+		System.out.println("A1");
 		
 		Addition ref = new Addition();
 		
@@ -24,5 +27,6 @@ public void add(int a, int b) {
 		ref.add(Integer.parseInt(args[0]),Integer.parseInt(args[1]));
 		
 	}
+	
 
 }

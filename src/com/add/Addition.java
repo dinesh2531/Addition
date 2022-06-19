@@ -19,6 +19,8 @@ public void add(int a, int b) {
 	public static void main(String[] args) {
 		
 		System.out.println("A1");
+		System.out.println("A3");
+		
 		
 		Addition ref = new Addition();
 		
